@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "WebLog",
+  "fields": [
+    {"name": "ip", "type": "string"},
+    {"name": "timestamp", "type": "string"},
+    {"name": "method", "type": "string"},
+    {"name": "url", "type": "string"},
+    {"name": "status", "type": "int"},
+    {"name": "size", "type": "int"}
+  ]
+}
